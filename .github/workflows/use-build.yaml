@@ -1,0 +1,18 @@
+on:
+  workflow_call:
+    # inputs:
+    #   username:
+    #     required: true
+    #     type: string
+    # secrets:
+    #   envPAT:
+    #     required: true
+
+jobs:
+  reusable_workflow_job:
+    # runs-on: ubuntu-latest
+    # environment: production
+    steps:
+      - name: build
+        run: |
+          yarn tsc

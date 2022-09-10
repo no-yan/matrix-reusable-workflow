@@ -14,9 +14,8 @@ jobs:
       - name: install
         run: |
           yarn --frozen-lockfile
-      - name: TSC
-        run: |
-          yarn tsc
+      - name: build
+        uses: no-yan/matrix-reusable-workflow/.github/workflows/use-build.yml@main
       - name: test
         run: |
           yarn test
