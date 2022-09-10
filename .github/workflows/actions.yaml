@@ -17,3 +17,6 @@ jobs:
       - name: TSC
         run: |
           yarn tsc
+      - name: test
+        run: |
+          yarn test
