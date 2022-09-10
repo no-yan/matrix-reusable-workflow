@@ -1,0 +1,11 @@
+{
+  "name": "matrix-reusable-workflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/no-yan/matrix-reusable-workflow",
+  "author": "no-yan",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
