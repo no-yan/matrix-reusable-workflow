@@ -1,0 +1,11 @@
+on:
+  push:
+
+jobs:
+  install:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: install
+        run: |
+          yarn --frozen-lockfile
+
